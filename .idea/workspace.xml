@@ -1,7 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3a70fb32-68ba-4ed0-9b19-07289e4ff0af" name="Default Changelist" comment="c" />
+    <list default="true" id="3a70fb32-68ba-4ed0-9b19-07289e4ff0af" name="Default Changelist" comment="c">
+      <change afterPath="$PROJECT_DIR$/images/cover.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/pic2.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/pic7.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/NBK09153.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/chu_re.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/co_dau.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/pic1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/pic10.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/images/pic10.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/pic11.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/images/pic11.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/pic12.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/images/pic12.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/pic13.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/images/pic13.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/pic14.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/images/pic14.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/pic2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/pic3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/pic4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/pic5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/pic6.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/pic8.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/images/pic8.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/pic9.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/images/pic9.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/styles/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles/main.css" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -22,7 +45,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="dart.analysis.tool.window.visible" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/images" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
     <property name="show.migrate.to.gradle.popup" value="false" />
@@ -55,7 +78,8 @@
       <workItem from="1607096524889" duration="4402000" />
       <workItem from="1607960885735" duration="217000" />
       <workItem from="1640663190518" duration="2847000" />
-      <workItem from="1640667298429" duration="1249000" />
+      <workItem from="1640667298429" duration="5621000" />
+      <workItem from="1642263386528" duration="1529000" />
     </task>
     <task id="LOCAL-00001" summary="c">
       <created>1640667910206</created>
@@ -75,10 +99,11 @@
     <option name="LAST_COMMIT_MESSAGE" value="c" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="217" y="23" width="846" height="709" key="CommitChangelistDialog2" timestamp="1640668167164">
-      <screen x="0" y="0" width="1280" height="800" />
+    <state x="217" y="43" width="846" height="709" key="CommitChangelistDialog2" timestamp="1642263183552">
+      <screen x="0" y="23" width="1280" height="709" />
     </state>
     <state x="217" y="23" width="846" height="709" key="CommitChangelistDialog2/0.0.1280.800@0.0.1280.800" timestamp="1640668167164" />
+    <state x="217" y="43" key="CommitChangelistDialog2/0.23.1280.709@0.23.1280.709" timestamp="1642263183552" />
     <state x="141" y="39" key="SettingsEditor" timestamp="1640663361046">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
@@ -87,5 +112,9 @@
       <screen x="0" y="0" width="1280" height="800" />
     </state>
     <state x="240" y="140" key="Vcs.Push.Dialog.v2/0.0.1280.800@0.0.1280.800" timestamp="1640667981307" />
+    <state x="305" y="28" width="670" height="676" key="search.everywhere.popup" timestamp="1642263181726">
+      <screen x="0" y="23" width="1280" height="709" />
+    </state>
+    <state x="305" y="28" width="670" height="676" key="search.everywhere.popup/0.23.1280.709@0.23.1280.709" timestamp="1642263181726" />
   </component>
 </project>
