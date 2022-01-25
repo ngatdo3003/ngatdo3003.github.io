@@ -1,16 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3a70fb32-68ba-4ed0-9b19-07289e4ff0af" name="Default Changelist" comment="c">
-      <change afterPath="$PROJECT_DIR$/images/pic14.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/pic1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/images/pic1.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/pic15.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/pic5.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/images/pic5.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/pic6.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/images/pic6.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/pic7.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/images/pic7.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-    </list>
+    <list default="true" id="3a70fb32-68ba-4ed0-9b19-07289e4ff0af" name="Default Changelist" comment="c" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -65,7 +56,7 @@
       <workItem from="1607960885735" duration="217000" />
       <workItem from="1640663190518" duration="2847000" />
       <workItem from="1640667298429" duration="5621000" />
-      <workItem from="1642263386528" duration="15416000" />
+      <workItem from="1642263386528" duration="15722000" />
     </task>
     <task id="LOCAL-00001" summary="c">
       <created>1640667910206</created>
