@@ -1,27 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3a70fb32-68ba-4ed0-9b19-07289e4ff0af" name="Default Changelist" comment="c">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/chu_re.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/images/chu_re.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/co_dau.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/images/co_dau.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/cover.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/images/cover.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/pic1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/images/pic1.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/pic10.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/images/pic10.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/pic11.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/pic12.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/pic13.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/pic14.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/pic2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/pic3.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/images/pic3.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/pic4.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/images/pic4.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/pic5.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/images/pic5.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/pic6.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/pic7.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/pic8.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/pic9.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-    </list>
+    <list default="true" id="3a70fb32-68ba-4ed0-9b19-07289e4ff0af" name="Default Changelist" comment="c" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -79,7 +59,7 @@
       <workItem from="1640667298429" duration="5621000" />
       <workItem from="1642263386528" duration="20283000" />
       <workItem from="1644650721899" duration="361000" />
-      <workItem from="1647435642221" duration="1730000" />
+      <workItem from="1647435642221" duration="2470000" />
     </task>
     <task id="LOCAL-00001" summary="c">
       <created>1640667910206</created>
