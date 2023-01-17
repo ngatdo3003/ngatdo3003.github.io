@@ -7,6 +7,7 @@
  */
 :root {
   --blue: #007bff;
+  --black: black;
   --indigo: #6610f2;
   --purple: #6f42c1;
   --pink: #e83e8c;
@@ -32,8 +33,8 @@
   --breakpoint-md: 768px;
   --breakpoint-lg: 992px;
   --breakpoint-xl: 1200px;
-  --font-family-sans-serif: -apple-system, Bahnschrift, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
-  --font-family-monospace: Bahnschrift,SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+  --font-family-sans-serif: -apple-system, Bahnschrift, Helvetica, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  --font-family-monospace: Bahnschrift, Helvetica, Helvetica-Bold,SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
 }
 
 *,
@@ -44,6 +45,14 @@
 @font-face{
 src:url(/fonts/Bahnschrift-Font-Family/BAHNSCHRIFT 2.TTF);
 font-family: Bahnschrift
+}
+@font-face{
+src:url(/fonts/Helvetica-Font-Family/helvetica-neue-regular.ttf);
+font-family: Helvetica
+}
+@font-face{
+src:url(/fonts/Helvetica-Font-Family/helvetica-neue-condensed-bold.ttf);
+font-family: Helvetica-Bold
 }
 html {
   font-family: sans-serif;
@@ -83,6 +92,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 p {
+  font-family: "Bahnschrift";
   margin-top: 0;
   margin-bottom: 1rem;
 }
@@ -370,7 +380,15 @@ h1, h2, h3, h4, h5, h6,
   line-height: 1.2;
   color: #7E30C0;
 }
+h1, h2, h3, h4, h6,
+.h1, .h2, .h3, .h4, .h6 {
+  color: #7E30C0;
+}
+h5,
+.h5{
 
+  color: black;
+}
 h1, .h1 {
   font-size: 2.5rem;
 }
@@ -2381,13 +2399,13 @@ fieldset:disabled a.btn {
 
 .btn-primary:hover {
   color: #fff;
-  background-color: #1465d9;
-  border-color: #135fcd;
+  background: linear-gradient(to bottom, #7E30C0, #320861);
+  border-color: #7E30C0;
 }
 
 .btn-primary:focus, .btn-primary.focus {
   color: #fff;
-  background-color: #1465d9;
+  background: linear-gradient(to bottom, #7E30C0, #320861);
   border-color: #135fcd;
   box-shadow: 0 0 0 0.2rem rgba(72, 140, 238, 0.5);
 }
@@ -4101,9 +4119,20 @@ input[type="button"].btn-block {
 .tab-content > .active {
   display: block;
 }
+header{
+  position: fixed;
+  width: 100%; 
+  top: 0;
+  z-index: 5;
 
+}
+body{
+  margin:90px 0px 0px 0px;
+  background-color: 
+}
 .navbar {
-  position: relative;
+  /*position: fixed;
+  width: 100%; */
   display: flex;
   flex-wrap: wrap;
   align-items: center;
@@ -4117,6 +4146,7 @@ input[type="button"].btn-block {
   flex-wrap: wrap;
   align-items: center;
   justify-content: space-between;
+  background-color: #320861;
 }
 
 .navbar-brand {
@@ -4134,19 +4164,9 @@ input[type="button"].btn-block {
   -o-transition: all 0.2s ease-in-out;
   -ms-transition: all 0.2s ease-in-out;
   transition: all 0.2s ease-in-out;
+
 }
-.navbar .navbar-brand {
-  background-image: url(/img/logo.png);
-}
-.navbar-nav .navbar-brand {
-  background-image: url(../img/logo.png);
-}
-.navbar-transparent .navbar-brand {
-  background-image: url(../img/logo.png);
-}
-.navbar-inverse .navbar-brand {
-  background-image: url(../img/logo.png);
-}
+
 
 .navbar-brand:hover, .navbar-brand:focus {
   text-decoration: none;
@@ -4158,6 +4178,7 @@ input[type="button"].btn-block {
   padding-left: 0;
   margin-bottom: 0;
   list-style: none;
+
 }
 
 .navbar-nav .nav-link {
@@ -4436,11 +4457,11 @@ input[type="button"].btn-block {
 }
 
 .navbar-dark .navbar-brand {
-  color: #fff;
+  color: white;
 }
 
 .navbar-dark .navbar-brand:hover, .navbar-dark .navbar-brand:focus {
-  color: #fff;
+  color: white;
 }
 
 .navbar-dark .navbar-nav .nav-link {
@@ -6448,9 +6469,11 @@ button.bg-light:focus {
 }
 
 .bg-dark {
-  background-color: #320861 !important;
+  background: #320861 !important;
 }
-
+.bg-med {
+  background-color: #7E30C0 !important;
+}
 a.bg-dark:hover, a.bg-dark:focus,
 button.bg-dark:hover,
 button.bg-dark:focus {
@@ -8950,7 +8973,7 @@ button.bg-dark:focus {
   }
   .pl-lg-5,
   .px-lg-5 {
-    padding-left: 3rem !important;
+    padding-left: 18rem !important;
   }
   .m-lg-n1 {
     margin: -0.25rem !important;
@@ -9799,7 +9822,7 @@ h6,
 }
 
 .navbar-light .navbar-nav .nav-link {
-  font-family: 'Jost', sans-serif;
+  font-family: 'Bahnschrift', sans-serif;
   padding: 30px 15px;
   font-size: 18px;
   font-weight: 500;
@@ -9868,6 +9891,8 @@ h6,
 .courses-item img {
   position: relative;
   margin-top: 40px;
+
+
   transition: .5s;
 }
 
@@ -9887,7 +9912,7 @@ h6,
   flex-direction: column;
   align-items: center;
   justify-content: flex-end;
-  background: linear-gradient(to bottom, rgba(18, 15, 45, 0), #120f2d);
+  /*background: linear-gradient(to bottom, rgba(18, 15, 45, 0), #120f2d);*/
   transition: .5s;
   z-index: 1;
 }
@@ -9907,7 +9932,7 @@ h6,
 .courses-item:hover .courses-text {
   height: calc(100% + 40px);
 }
-
+.courses-carousel .owl-nav,
 .team-carousel .owl-nav,
 .related-carousel .owl-nav {
   position: absolute;
@@ -9919,7 +9944,8 @@ h6,
   justify-content: space-between;
   z-index: 1;
 }
-
+.courses-carousel .owl-nav .owl-prev,
+.courses-carousel .owl-nav .owl-next,
 .team-carousel .owl-nav .owl-prev,
 .team-carousel .owl-nav .owl-next,
 .related-carousel .owl-nav .owl-prev,
@@ -9931,24 +9957,17 @@ h6,
   align-items: center;
   justify-content: center;
   color: #FFFFFF;
-  background: #7E30C0;
+  background: #35D7BB;
   font-size: 22px;
   transition: .5s;
 }
 
-.team-carousel .owl-nav .owl-prev:hover,
-.team-carousel .owl-nav .owl-next:hover,
-.related-carousel .owl-nav .owl-prev:hover,
-.related-carousel .owl-nav .owl-next:hover {
-  background: #F14D5D;
-}
-
-.testimonial-carousel .owl-item img {
+.successfulcandidates-carousel .owl-item img {
   width: 80px;
   height: 80px;
 }
 
-.testimonial-carousel .owl-nav {
+.successfulcandidates-carousel .owl-nav {
   position: absolute;
   width: 120px;
   height: 60px;
@@ -9958,8 +9977,8 @@ h6,
   z-index: 1;
 }
 
-.testimonial-carousel .owl-nav .owl-prev,
-.testimonial-carousel .owl-nav .owl-next {
+.successfulcandidates-carousel .owl-nav .owl-prev,
+.successfulcandidates-carousel .owl-nav .owl-next {
   position: relative;
   width: 60px;
   height: 60px;
@@ -9967,16 +9986,44 @@ h6,
   align-items: center;
   justify-content: center;
   color: #FFFFFF;
-  background: #7E30C0;
   font-size: 22px;
   transition: .5s;
 }
-
-.testimonial-carousel .owl-nav .owl-prev,
-.testimonial-carousel .owl-nav .owl-next:hover {
-  background: #F14D5D;
+.courses-carousel .owl-nav .owl-prev,
+.team-carousel .owl-nav .owl-prev,
+.related-carousel .owl-nav .owl-prev,
+.successfulcandidates-carousel .owl-nav .owl-prev{
+    background: #35D7BB;
+}
+.courses-carousel .owl-nav .owl-next,
+.team-carousel .owl-nav .owl-next,
+.related-carousel .owl-nav .owl-next,
+.successfulcandidates-carousel .owl-nav .owl-next {
+background: #EB8C32;
+}
+.courses-carousel .owl-nav .owl-prev:hover,
+.team-carousel .owl-nav .owl-prev:hover,
+.related-carousel .owl-nav .owl-prev:hover,
+.successfulcandidates-carousel .owl-nav .owl-prev:hover {
+  background: linear-gradient(to bottom, #35D7BB, #1367BB);
+}
+.courses-carousel .owl-nav .owl-next:hover,
+.team-carousel .owl-nav .owl-next:hover,
+.related-carousel .owl-nav .owl-next:hover,
+.successfulcandidates-carousel .owl-nav .owl-next:hover {
+  background: linear-gradient(to bottom, #EB8C32, #BD0A43);
 }
 
-.testimonial-carousel .owl-nav .owl-prev:hover {
-  background: #7E30C0;
+
+.header-carousel .owl-nav {
+  position: absolute;
+  width: 120px;
+  height: 60px;
+  top: 0;
+  right: 0;
+  display: flex;
+  z-index: 1;
 }
+
+
+

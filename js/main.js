@@ -42,11 +42,16 @@
 
     // Courses carousel
     $(".courses-carousel").owlCarousel({
-        autoplay: true,
+        autoplay: false,
         smartSpeed: 1500,
-        loop: true,
-        dots: false,
-        nav : false,
+        loop: false,
+        dots: true,
+        nav : true,
+        centerMode: true,
+        navText : [
+            '<i class="fa fa-angle-left" aria-hidden="true"></i>',
+            '<i class="fa fa-angle-right" aria-hidden="true"></i>'
+        ],
         responsive: {
             0:{
                 items:1
@@ -66,11 +71,11 @@
 
     // Team carousel
     $(".team-carousel").owlCarousel({
-        autoplay: true,
+        autoplay: false,
         smartSpeed: 1000,
         margin: 30,
         dots: false,
-        loop: true,
+        loop: false,
         nav : true,
         navText : [
             '<i class="fa fa-angle-left" aria-hidden="true"></i>',
@@ -93,8 +98,8 @@
     });
 
 
-    // Testimonials carousel
-    $(".testimonial-carousel").owlCarousel({
+    // Successfulcandidates carousel
+    $(".successfulcandidates-carousel").owlCarousel({
         autoplay: true,
         smartSpeed: 1500,
         items: 1,
@@ -106,7 +111,20 @@
             '<i class="fa fa-angle-right" aria-hidden="true"></i>'
         ],
     });
-
+    // Header carousel
+    $(".header-carousel").owlCarousel({
+        autoplayHoverPause:true,
+        autoplay: true,
+        smartSpeed: 1500,
+        items: 1,
+        dots: false,
+        loop: true,
+        nav : true,
+        navText : [
+            '<i aria-hidden="true"></i>',
+            '<i  aria-hidden="true"></i>'
+        ],
+    });
 
     // Related carousel
     $(".related-carousel").owlCarousel({
@@ -132,6 +150,11 @@
             }
         }
     });
+
+
     
 })(jQuery);
+
+
+
 
